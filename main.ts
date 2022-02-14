@@ -1,10 +1,3 @@
-﻿/*
-Copyright (C): 2010-2019, Shenzhen Yahboom Tech
-modified from liusen
-load dependency
-"SuperBit": "file:../pxt-Superbit"
-*/
-
 //% color="#ECA40D" weight=20 icon="\uf085"
 namespace SuperBit {
 

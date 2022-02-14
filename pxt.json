@@ -5,17 +5,25 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:lzty634158/pxt-neopixel"
+        "neopixel": "github:lzty634158/pxt-neopixel",
+        "microphone": "*"
     },
     "files": [
         "README.md",
         "main.ts",
         "_locales/zh-cn/SuperBit-strings.json",
         "_locales/zh-tw/SuperBit-strings.json"
-
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
